@@ -1,0 +1,40 @@
+.free-stuff {
+  background-color: #f9f9f9;
+}
+
+.resource-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+}
+
+.resource-item {
+  background-color: #fff;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.resource-item h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.newsletter-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+
+.newsletter-form .btn {
+  width: 100%;
+}
